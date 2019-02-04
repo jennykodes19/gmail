@@ -1,0 +1,123 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+.container{
+	width:100%;
+	height: auto;
+}
+.form-side{
+	margin: 30px auto;
+	width: 365px;
+	height: auto;
+	border: 1px solid #DADCE0;
+	border-radius: 5px;
+	padding:50px 40px 100px 40px;
+}
+
+
+.blue a{
+	text-decoration: none;
+	color: #277BE9;
+	font-size: 14px;
+	font-weight: bold;
+}
+.google_img{
+	width: 100%;
+	text-align: center;
+	/* 
+	margin:0 auto;
+	if i do margin auto i have to make width in % and also i can't give 0px i can give 0% or o;
+	instead giving text-align:center; is easy way to center align the content in div.
+	*/
+}
+.google_img img{
+	height: 27px;
+}
+
+.sign_in_text{
+	margin:-10px 0 12px 0;
+	font-size: 23px;
+	text-align: center;
+	color: #202124;
+}
+.continue_text{
+	font-size: 16px;
+	text-align: center;
+	color: #202124;
+
+}
+.email_phone{
+	margin-top: 20px;
+	width: 100%;
+}
+.email_phone input{
+	margin:13px 0 0 0;
+	padding: 17px 17px;
+	font-size: 17px;
+	width: 90%;
+	border-radius: 5px;
+	border:1px solid #DADCE0;
+
+}
+.email_phone input:hover{
+	border: 2px solid #1A73E8;
+	border-radius: 5px;
+}
+.forget{
+	color: #277BE9;
+	font-weight: bold;
+	margin:20px 0 50px 0;
+}
+.forget a{
+	text-decoration: none;
+
+}
+.defined_text{
+	margin-bottom: 40px;
+	color: #606469;
+	width: 100%;
+	font-size: 14px;
+	font-weight: 800px;
+	word-spacing: 1px;
+}
+.create_account{
+	float: left;
+}
+.next_page{
+	float: right;
+}
+.next_page input {
+	background-color: #1A73E8;
+	padding: 9px 27px;
+	color: white;
+	border: 1px solid #1A73E8;
+	border-radius: 3px;
+	font-weight: bold;
+}
+.below_sec{
+	width: 450px;
+	background: red;
+	
+	margin:-10px auto 0;
+	color: #505053;
+}
+.language{
+	float: left;
+	font-size: 10px;
+}
+.language select{
+	border: 0px;
+}
+.help{
+	float: right;
+	font-size:12px;
+	word-spacing: 10px;
+	font-weight: bold;
+}
+.help a{
+	text-decoration: none;
+	color: #7F7F7F
+
+}
